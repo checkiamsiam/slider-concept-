@@ -1,0 +1,22 @@
+*{
+  background-color: rgb(172, 108, 108);
+}
+#img-cont{
+ text-align: center;
+}
+#img {
+  border-radius: 20px;
+  animation: sliderEffect ;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes sliderEffect {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* responsive part */
